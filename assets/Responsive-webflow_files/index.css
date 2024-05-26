@@ -1,0 +1,187 @@
+:root{
+    --black : #1C1C1C;
+    --turqouise:#24AFB5;
+    --white:#FFF;
+    --grey: #969696;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size :15px;
+    font-weight: 600;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding:30px;
+}
+
+.left-nav{
+    display: flex;
+    gap:1.6rem;
+    align-items: center;
+
+}
+
+.right-nav{
+    display: flex;
+    gap:1.6rem;
+    align-items: center;
+}
+
+.left-link{
+    text-decoration: none;
+    color: var(--black);
+}
+
+.right-link{
+    text-decoration :none;
+    color: var(--turqouise);
+}
+
+.btn-nav{
+    border-radius: 6px;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 102px;
+    height: 38px;
+    background-color: var(--turqouise);
+    color: var(--white);
+    font-family: inherit;
+    font-size:inherit;
+    font-weight: inherit;
+    border-style: none;
+}
+
+/* main */
+
+.first-section{
+    padding:100px
+}
+
+.jumbo-tron{
+    display: flex;
+    gap : 2rem;
+}
+
+#jumbo-tron-header{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: -1.2px;
+}
+
+#jumbo-tron-content{
+    letter-spacing: -0.3px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+
+.btn-main{
+    background-color: var(--turqouise);
+    padding: 11px 16px;
+    font-family: inherit;
+    font-weight: inherit;
+    color:var(--white);
+    border-style: none;
+    border-radius: 6px;
+}
+
+.pathner > p{
+    font-weight: 400;
+    size: 13px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    color:var(--grey);
+}
+
+.pathner{
+    margin-top: 3rem;
+}
+
+.brand-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second-section{
+    padding-left: 100px;
+    padding-top:30px;
+    display: flex;
+    align-items: center;
+}
+
+#cap-heading{
+    font-weight: 700;
+    font-size:13px;
+    letter-spacing: 1px;
+    line-height: 14px;
+}
+
+#second-heading{
+    font-weight: 700;
+    font-size:32px;
+    line-height: 60px;
+    letter-spacing: -1.2px;
+}
+
+#second-content{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.3px;
+}
+
+#learn-more{
+    color:var(--turqouise);
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+}
+
+.third-section{
+    display: flex;
+    padding:30px 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-subscribe > h3{
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+}
+
+.left-subscribe > p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.right-subscribe {
+    display: flex;
+    gap:1rem;
+    flex-direction: column;
+    align-items: flex-end;
+
+    /* tanya fiky nanti */
+}
+
+.btn-subscribe {
+    background-color: var(--turqouise);
+    padding: 11px 16px;
+    font-family: inherit;
+    font-weight: inherit;
+    color:var(--white);
+    border-style: none;
+    border-radius: 6px;
+    width: 129px;
+    align-items: flex-end;
+    display: block;
+}
